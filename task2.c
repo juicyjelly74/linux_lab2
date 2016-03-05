@@ -16,7 +16,7 @@ int main(){
 	return -1; 
 	} 
 	time(&current_time); 
-	int difference = difftime(current_time, timeBirth);
+	int difference = difftime(current_time, timeBirth); /* Функция difftime() возвращает разность в секундах между временем time1 и временем time2 */
 	printf("Time of life is %d seconds.\n", difference); 
 	return 0; 
 }
