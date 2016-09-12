@@ -1,0 +1,1 @@
+char* goodbye(void);
