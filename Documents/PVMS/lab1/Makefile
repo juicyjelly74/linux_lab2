@@ -7,10 +7,12 @@ launch:
 libmain.o: libmain.c
 	gcc -c libmain.c
 
-libs: libhello.o libgoodbye.o
-	ar cr libhello.a libhello.o
-	ar cr libgoodbye.a libgoodbye.o
+libs: libhello.a libgoodbye.a
 
+libhello.a: libhello.o
+	ar cr libhello.a libhello.o
+libgoodbye.a: libgoodbye.o
+	ar cr libgoodbye.a libgoodbye.o
 libhello.o: libhello.c
 	gcc -c libhello.c
 
