@@ -1,0 +1,1634 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <title>погода в Минске, 10дней</title>
+    <meta name=keywords content="погода Минск">
+    <meta name=description content="погода Минск, погода в Минске">
+    <meta name="verify-v1" content="" />
+    <meta name="y_key" content="" >
+    <meta name="design" content="maks.us">
+    <meta name="author" content="maks.us">
+    <meta name="language" content="russian">
+    <meta name="robots" content="All">
+    <meta name="revisit-after" content="1 days">
+
+    <meta property="og:title" content="погода в Минске, 10дней" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://minsk.the.by" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="minsk.the.by" />
+    <meta property="fb:admins" content="100004353691084" />
+
+    <link href="/favicon.ico" rel="shortcut icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="/build/css/app-d0fa484ede.css">
+
+    <link rel="canonical" href="http://minsk.the.by" />
+
+    <!--{include file=$sTplHeader}-->
+</head>
+
+<body marginheight="0" marginwidth="0" >
+    <h1 class="hi">Погода Минск. Прогноз погоды Минск.</h1>
+    <div class="container">
+                <div class="menu">
+    <div class="unlink hidden-xs hidden-sm"> Погода: </div>
+
+    <div class="active">
+        <a title="Погода в Минске" href="http://minsk.the.by/">Минск</a>
+    </div>
+    <div >
+        <a title="Погода в Гомеле" href="http://gomel.the.by/">Гомель</a>
+    </div>
+    <div >
+        <a title="Погода в Бресте" href="http://pogodabrest.by/">Брест</a>
+    </div>
+    <div >
+        <a title="Погода в Гродно" href="http://pogodagrodno.by/">Гродно</a>
+    </div>
+    <div >
+        <a title="Погода в Витебске" href="http://pogodavitebsk.by/">Витебск</a>
+    </div>
+    <div >
+        <a title="Погода в Полоцке" href="http://pogodapolotsk.by/">Полоцк</a>
+    </div>
+    <div >
+        <a title="Погода в Могилеве" href="http://pogodamogilev.by/">Могилев</a>
+    </div>
+    <div class="hidden-md  " >
+        <a title="Погода в Пинске" href="http://pogodapinsk.by/">Пинск</a>
+    </div>
+</div>
+<div class="clr"></div>
+
+        
+                <div class="submenu visible-lg visible-md" style="margin:0 auto;">
+    <a href="http://minsk.the.by">Погода в Минске</a> |
+    <a href="/prognoz_pogody">Прогноз погоды в Минске</a> (Календарь) |
+    <a href="/prognoz_pogody2">Подробный прогноз погоды в Минске</a> (Таблица)
+</div>
+
+                        <div class="topmenu visible-lg visible-md">
+            <table cellpadding="10" cellspacing="0" >
+                <tr>
+                    <td class="block" style="text-align:justify;">
+                        <div class="h1"><h1 >Погода в Минске</h1> &nbsp; на 10 дней</div>
+                        На этом сайте вы всегда найдёте актуальную информацию.
+                        Информация о <b>прогнозе погоды в Минске</b> обновляется каждые полчаса.
+                        Всегда можете узнать, какая будет <b>погода в Минске</b>. Прогноз погоды – эта информация нужна каждый день, поэтому мы предлагаем добавить наш сайт в закладку, или сделать стартовой страницей.
+                        Ваши предложения и пожелания высылайте на почту <script type="text/javascript" language="javascript">eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%70%6f%67%6f%64%61%40%74%68%65%2e%62%79%22%20%3e%70%6f%67%6f%64%61%40%74%68%65%2e%62%79%3c%2f%61%3e%27%29%3b'))</script>
+                        <center> <b>Мы рекомендуем проверять прогноз погоды не реже двух раз в сутки. </b></center>
+                    </td>
+                    <td class="block" align="center">
+                        <a href="http://minsk.the.by" title="погода Минск"><img src="/design/pic/logo/weather-minsk.jpg" border="0" alt="Погода в Минске"></a>
+                    </td>
+                    <td class="block" align="center">
+                        <a href="javascript: void(addBookmark('minsk.the.by','Погода в Минске на 10 дней') || alert('Ваш браузер не поддерживает автоматическое добавление закладок.'))"><img src="/design/img/add.jpg" alt="" border="0"></a>
+                        <p style="font-size:10px;">на этот сайт часто заходят при поиске по таким словам как: погода в Минске, погода Минск, прогноз погоды в Минске, прогноз погоды Минск, прогноз погоды,</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+                    <div class="p1 big stylebig hidden-xs" style="margin:0 auto;">
+        <table cellpadding="0" cellspacing="0" width="100%"  style="width:100%;">
+            <tr>
+                                                            
+                                                    <td class=" ">
+                                <div class="plp1 ">
+                                    <table cellpadding="0" cellspacing="0" class="thead">
+                                        <tr>
+                                            <td><p class="day">19</p></td>
+                                            <td>
+                                                <p class="now">Сегодня</p>
+                                                <p class="week">Понедельник</p>
+                                                <p class="month">Сентябрь</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="pt10px" ></div>
+                                    <div class="clr"></div>
+                                    <div class="pull-right">
+                                    <table cellpadding="0" cellspacing="0" >
+                                        <tr class="time">
+                                                                                            <td><p>Вечер<small>21:00</small></p></td>
+                                                                                    </tr>
+                                        <tr class="tem">
+                                                                                            <td><p>+6</p></td>
+                                                                                    </tr>
+                                        <tr class="cloud">
+                                                                                            <td><div class='box30px pic30 cn2'></div></td>
+                                                                                    </tr>
+                                        <tr class="rain">
+                                                                                            <td class="first"><div class='box30px pic30 '></div></td>
+                                                                                    </tr>
+                                    </table>
+                                    </div>
+                                </div>
+                            </td>
+                                                                    
+                                                    <td class=" ">
+                                <div class="plp1 ">
+                                    <table cellpadding="0" cellspacing="0" class="thead">
+                                        <tr>
+                                            <td><p class="day">20</p></td>
+                                            <td>
+                                                <p class="now">Завтра</p>
+                                                <p class="week">Вторник</p>
+                                                <p class="month">Сентябрь</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="pt10px" ></div>
+                                    <div class="clr"></div>
+                                    <div class="pull-right">
+                                    <table cellpadding="0" cellspacing="0" >
+                                        <tr class="time">
+                                                                                            <td><p>Ночь<small>3:00</small></p></td>
+                                                                                            <td><p>Утро<small>9:00</small></p></td>
+                                                                                            <td><p>День<small>15:00</small></p></td>
+                                                                                            <td><p>Вечер<small>21:00</small></p></td>
+                                                                                    </tr>
+                                        <tr class="tem">
+                                                                                            <td><p>+6</p></td>
+                                                                                            <td><p>+8</p></td>
+                                                                                            <td><p>+12</p></td>
+                                                                                            <td><p>+6</p></td>
+                                                                                    </tr>
+                                        <tr class="cloud">
+                                                                                            <td><div class='box30px pic30 cn4'></div></td>
+                                                                                            <td><div class='box30px pic30 cd4'></div></td>
+                                                                                            <td><div class='box30px pic30 cd4'></div></td>
+                                                                                            <td><div class='box30px pic30 cn4'></div></td>
+                                                                                    </tr>
+                                        <tr class="rain">
+                                                                                            <td class="first"><div class='box30px pic30 '></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 '></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n1'></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n1'></div></td>
+                                                                                    </tr>
+                                    </table>
+                                    </div>
+                                </div>
+                            </td>
+                                                                    
+                                                    <td class=" ">
+                                <div class="plp1 ">
+                                    <table cellpadding="0" cellspacing="0" class="thead">
+                                        <tr>
+                                            <td><p class="day">21</p></td>
+                                            <td>
+                                                <p class="now">Послезавтра</p>
+                                                <p class="week">Среда</p>
+                                                <p class="month">Сентябрь</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="pt10px" ></div>
+                                    <div class="clr"></div>
+                                    <div class="pull-right">
+                                    <table cellpadding="0" cellspacing="0" >
+                                        <tr class="time">
+                                                                                            <td><p>Ночь<small>3:00</small></p></td>
+                                                                                            <td><p>Утро<small>9:00</small></p></td>
+                                                                                            <td><p>День<small>15:00</small></p></td>
+                                                                                            <td><p>Вечер<small>21:00</small></p></td>
+                                                                                    </tr>
+                                        <tr class="tem">
+                                                                                            <td><p>+5</p></td>
+                                                                                            <td><p>+7</p></td>
+                                                                                            <td><p>+11</p></td>
+                                                                                            <td><p>+7</p></td>
+                                                                                    </tr>
+                                        <tr class="cloud">
+                                                                                            <td><div class='box30px pic30 cn4'></div></td>
+                                                                                            <td><div class='box30px pic30 cd4'></div></td>
+                                                                                            <td><div class='box30px pic30 cd3'></div></td>
+                                                                                            <td><div class='box30px pic30 cn4'></div></td>
+                                                                                    </tr>
+                                        <tr class="rain">
+                                                                                            <td class="first"><div class='box30px pic30 '></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 '></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n1'></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n1'></div></td>
+                                                                                    </tr>
+                                    </table>
+                                    </div>
+                                </div>
+                            </td>
+                                                                    
+                                                    <td class=" ">
+                                <div class="plp1 ">
+                                    <table cellpadding="0" cellspacing="0" class="thead">
+                                        <tr>
+                                            <td><p class="day">22</p></td>
+                                            <td>
+                                                <p class="now"></p>
+                                                <p class="week">Четверг</p>
+                                                <p class="month">Сентябрь</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="pt10px" ></div>
+                                    <div class="clr"></div>
+                                    <div class="pull-right">
+                                    <table cellpadding="0" cellspacing="0" >
+                                        <tr class="time">
+                                                                                            <td><p>Ночь<small>3:00</small></p></td>
+                                                                                            <td><p>Утро<small>9:00</small></p></td>
+                                                                                            <td><p>День<small>15:00</small></p></td>
+                                                                                            <td><p>Вечер<small>21:00</small></p></td>
+                                                                                    </tr>
+                                        <tr class="tem">
+                                                                                            <td><p>+8</p></td>
+                                                                                            <td><p>+8</p></td>
+                                                                                            <td><p>+10</p></td>
+                                                                                            <td><p>+6</p></td>
+                                                                                    </tr>
+                                        <tr class="cloud">
+                                                                                            <td><div class='box30px pic30 cn4'></div></td>
+                                                                                            <td><div class='box30px pic30 cd5'></div></td>
+                                                                                            <td><div class='box30px pic30 cd4'></div></td>
+                                                                                            <td><div class='box30px pic30 cn4'></div></td>
+                                                                                    </tr>
+                                        <tr class="rain">
+                                                                                            <td class="first"><div class='box30px pic30 '></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n1'></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n2'></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n1'></div></td>
+                                                                                    </tr>
+                                    </table>
+                                    </div>
+                                </div>
+                            </td>
+                                                                    
+                                                    <td class=" ">
+                                <div class="plp1 ">
+                                    <table cellpadding="0" cellspacing="0" class="thead">
+                                        <tr>
+                                            <td><p class="day">23</p></td>
+                                            <td>
+                                                <p class="now"></p>
+                                                <p class="week">Пятница</p>
+                                                <p class="month">Сентябрь</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="pt10px" ></div>
+                                    <div class="clr"></div>
+                                    <div class="pull-right">
+                                    <table cellpadding="0" cellspacing="0" >
+                                        <tr class="time">
+                                                                                            <td><p>Ночь<small>3:00</small></p></td>
+                                                                                            <td><p>Утро<small>9:00</small></p></td>
+                                                                                            <td><p>День<small>15:00</small></p></td>
+                                                                                            <td><p>Вечер<small>21:00</small></p></td>
+                                                                                    </tr>
+                                        <tr class="tem">
+                                                                                            <td><p>+5</p></td>
+                                                                                            <td><p>+7</p></td>
+                                                                                            <td><p>+10</p></td>
+                                                                                            <td><p>+6</p></td>
+                                                                                    </tr>
+                                        <tr class="cloud">
+                                                                                            <td><div class='box30px pic30 cn4'></div></td>
+                                                                                            <td><div class='box30px pic30 cd4'></div></td>
+                                                                                            <td><div class='box30px pic30 cd5'></div></td>
+                                                                                            <td><div class='box30px pic30 cn3'></div></td>
+                                                                                    </tr>
+                                        <tr class="rain">
+                                                                                            <td class="first"><div class='box30px pic30 '></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n1'></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n1'></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n1'></div></td>
+                                                                                    </tr>
+                                    </table>
+                                    </div>
+                                </div>
+                            </td>
+                                                                    
+                                                    <td class="visible-lg   visible-md ">
+                                <div class="plp1  weekend ">
+                                    <table cellpadding="0" cellspacing="0" class="thead">
+                                        <tr>
+                                            <td><p class="day">24</p></td>
+                                            <td>
+                                                <p class="now"></p>
+                                                <p class="week">Суббота</p>
+                                                <p class="month">Сентябрь</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="pt10px" ></div>
+                                    <div class="clr"></div>
+                                    <div class="pull-right">
+                                    <table cellpadding="0" cellspacing="0" >
+                                        <tr class="time">
+                                                                                            <td><p>Ночь<small>3:00</small></p></td>
+                                                                                            <td><p>Утро<small>9:00</small></p></td>
+                                                                                            <td><p>День<small>15:00</small></p></td>
+                                                                                            <td><p>Вечер<small>21:00</small></p></td>
+                                                                                    </tr>
+                                        <tr class="tem">
+                                                                                            <td><p>+4</p></td>
+                                                                                            <td><p>+7</p></td>
+                                                                                            <td><p>+12</p></td>
+                                                                                            <td><p>+6</p></td>
+                                                                                    </tr>
+                                        <tr class="cloud">
+                                                                                            <td><div class='box30px pic30 cn4'></div></td>
+                                                                                            <td><div class='box30px pic30 cd3'></div></td>
+                                                                                            <td><div class='box30px pic30 cd2'></div></td>
+                                                                                            <td><div class='box30px pic30 cn3'></div></td>
+                                                                                    </tr>
+                                        <tr class="rain">
+                                                                                            <td class="first"><div class='box30px pic30 '></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 '></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n2'></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n2'></div></td>
+                                                                                    </tr>
+                                    </table>
+                                    </div>
+                                </div>
+                            </td>
+                                                                    
+                                                    <td class="visible-lg   visible-md ">
+                                <div class="plp1  weekend ">
+                                    <table cellpadding="0" cellspacing="0" class="thead">
+                                        <tr>
+                                            <td><p class="day">25</p></td>
+                                            <td>
+                                                <p class="now"></p>
+                                                <p class="week">Воскресенье</p>
+                                                <p class="month">Сентябрь</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="pt10px" ></div>
+                                    <div class="clr"></div>
+                                    <div class="pull-right">
+                                    <table cellpadding="0" cellspacing="0" >
+                                        <tr class="time">
+                                                                                            <td><p>Ночь<small>3:00</small></p></td>
+                                                                                            <td><p>Утро<small>9:00</small></p></td>
+                                                                                            <td><p>День<small>15:00</small></p></td>
+                                                                                            <td><p>Вечер<small>21:00</small></p></td>
+                                                                                    </tr>
+                                        <tr class="tem">
+                                                                                            <td><p>+7</p></td>
+                                                                                            <td><p>+7</p></td>
+                                                                                            <td><p>+11</p></td>
+                                                                                            <td><p>+8</p></td>
+                                                                                    </tr>
+                                        <tr class="cloud">
+                                                                                            <td><div class='box30px pic30 cn4'></div></td>
+                                                                                            <td><div class='box30px pic30 cd4'></div></td>
+                                                                                            <td><div class='box30px pic30 cd4'></div></td>
+                                                                                            <td><div class='box30px pic30 cn4'></div></td>
+                                                                                    </tr>
+                                        <tr class="rain">
+                                                                                            <td class="first"><div class='box30px pic30 '></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 '></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n2'></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n1'></div></td>
+                                                                                    </tr>
+                                    </table>
+                                    </div>
+                                </div>
+                            </td>
+                                                                                                        
+                                                    <td class="visible-lg  ">
+                                <div class="plp1 ">
+                                    <table cellpadding="0" cellspacing="0" class="thead">
+                                        <tr>
+                                            <td><p class="day">26</p></td>
+                                            <td>
+                                                <p class="now"></p>
+                                                <p class="week">Понедельник</p>
+                                                <p class="month">Сентябрь</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="pt10px" ></div>
+                                    <div class="clr"></div>
+                                    <div class="pull-right">
+                                    <table cellpadding="0" cellspacing="0" >
+                                        <tr class="time">
+                                                                                            <td><p>Ночь<small>3:00</small></p></td>
+                                                                                            <td><p>Утро<small>9:00</small></p></td>
+                                                                                            <td><p>День<small>15:00</small></p></td>
+                                                                                            <td><p>Вечер<small>21:00</small></p></td>
+                                                                                    </tr>
+                                        <tr class="tem">
+                                                                                            <td><p>+4</p></td>
+                                                                                            <td><p>+7</p></td>
+                                                                                            <td><p>+11</p></td>
+                                                                                            <td><p>+7</p></td>
+                                                                                    </tr>
+                                        <tr class="cloud">
+                                                                                            <td><div class='box30px pic30 cn4'></div></td>
+                                                                                            <td><div class='box30px pic30 cd4'></div></td>
+                                                                                            <td><div class='box30px pic30 cd4'></div></td>
+                                                                                            <td><div class='box30px pic30 cn4'></div></td>
+                                                                                    </tr>
+                                        <tr class="rain">
+                                                                                            <td class="first"><div class='box30px pic30 '></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 '></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 o1n1'></div></td>
+                                                                                            <td class="first"><div class='box30px pic30 '></div></td>
+                                                                                    </tr>
+                                    </table>
+                                    </div>
+                                </div>
+                            </td>
+                                                                    
+                                                                    
+                                                                    
+                                                                        </tr>
+        </table>
+
+        <div style=' padding: 10px;' class="visible-lg visible-md">
+            <div id='buttons_panel' style='margin:0px;   float: left; '>
+                <div style="padding:10px; color:green;">
+                        <h4>85% посетителей постоянно возвращаются к нам.</h4>
+                </div>
+                            </div>
+
+            <div style='float:right;'>
+                <a href="/prognoz_pogody" style="color:#aaa;">Краткий прогноз погоды на 10 дней (Календарь)</a>
+            </div>
+            <div style='clear:both;'></div>
+        </div>
+    </div>
+
+        <div class="content" style="margin:0px auto; clear: left;">
+            <table cellpadding="0" cellspacing="5" border="0">
+                <tr>
+                    <td width="180" valign="top" class="visible-lg visible-md">
+                        <div style="padding:20px 0px 0px 0px;text-align:center;">
+                            <a href="http://minsk.the.by" title="погода Минск"><img src="/design/pic/logo/weather-minsk.jpg" border="0" alt="Погода в Минске"></a>
+                            <br><h1 class="title">погода Минск</h1>
+                            <hr size="1">
+                            <a href="http://spb.the.by/"  title="Петербурге погода - spb.the.by">Петербург погода</a>
+                            <br> <a href="http://moscow.the.by" title="Погода Москва - moscow.the.by">Погода: Москва</a>
+                            <br> <a href="http://minsk.the.by" title="Погода Минск - minsk.the.by">Погода: Минск</a>
+                        </div>
+
+                        <div style="padding: 10px 0px;">
+                            <iframe src="http://www.nbrb.by/publications/wmastersd.asp?datatype=0&fnt=Areal&fntsize=11&fntcolor=005c7b
+&lnkcolor=fc7f7f&bgcolor=fff&brdcolor=fdf2e0"
+                                    width="180" height="70" frameborder="0" scrolling="no">
+                            </iframe>
+                        </div>
+                        <div style="padding:20px 0px 0px 0px;text-align:left;">
+                            <b>Новости minsk.the.by</b>
+
+                            <br><br><small>15 апреля 2015</small>
+                            <br>Теперь так же показываем погоду по Бобруйску
+                            <a title="Погода в Бобруйске на 10 дней " class="btn btn-small btn-default" href="http://pogodamogilev.by/pogoda-bobruisk/">Погода в Бобруйске</a>
+
+                            <br><br><small>2 апреля 2015</small>
+                            <br> Мы переехали в облачный сервер. Теперь сайт работает в 5 раз быстрее.
+
+                            <br><br><small>1 ноября 2014</small>
+                            <br> Сайту исполнилось 7 лет.
+
+                            <br><br><small>1 Sep 2012</small>
+                            <br> Обновлен Вебсайт
+
+                            <br><br><small>17 июля</small>
+                            <br> Увеличена скорость сайта <b>Minsk.the.by</b>
+
+                            <br><br><small>11 сентября</small>
+                            <br><span style="color:red">Более 30 000</span> человек в месяц  выбирают прогноз погоды с сайта <b>Minsk.the.by</b>
+
+                            <br><br><small>23 августа</small>
+                            <br><b>Оптимизирован сайт</b>. В результате стал <span style="color:red">“легче” в 2 раза.</span>
+
+                            <br><br><small>10 августа</small>
+                            <br><span style="color:red">Более 26 000</span> человек в месяц  выбирают прогноз погоды с сайта <b>Minsk.the.by</b>
+
+                            <br><br><small>11 июня </small>
+                            <br>Проводятся работы по улучшению интерфейса и оптимизация скорости загрузки сайта
+
+                            <br><br><small>23 мая </small>
+                            <br>Извините,  с  8.30 до 9.00 проводились технические  работы. Теперь <b>прогноз  погоды</b> <span style="color:red">на 10 дней</span>
+                        </div>
+                        <div style="padding:20px 0px 0px 0px;color:#666;font-size:11px;">
+                            На этом сайте вы всегда найдёте актуальную информацию.
+                            Информация о прогнозе погоды в <b>Минске</b> обновляется 4 раза в сутки, ночью в <b>3:20</b>, утром в <b>7:20</b>, днём в <b>15:20</b> и вечером в <b>19:20</b>.
+                            Всегда можете узнать, какая будет погода в <b>Минске</b>. Прогноз погоды – эта информация нужна каждый день, поэтому мы предлагаем добавить наш сайт в закладку, или сделать стартовой страницей.
+                            Ваши предложения и пожелания высылайте на почту <script type="text/javascript" language="javascript">eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%70%6f%67%6f%64%61%40%74%68%65%2e%62%79%22%20%3e%70%6f%67%6f%64%61%40%74%68%65%2e%62%79%3c%2f%61%3e%27%29%3b'))</script>
+                        </div>
+
+                    </td>
+                    <td width="600" class="content" align="center">
+                                                <h1 class="title" style="display:inline;">погода в Минске</h1> &nbsp; на 10 дней
+<table class="border" border="0" cellpadding="0" cellspacing="0">
+    <colgroup>
+        <col align="left" width="110">
+        <col align="left" width="70">
+        <col align="left" width="70">
+        <col align="left" width="70">
+        <col align="left" width="70">
+        <col align="left" width="80">
+        <col align="left" width="70">
+    </colgroup>
+    <tbody>
+                        <tr class="hr">
+                <td colspan="3" class="day">
+                    19 Сентябрь /
+                    <span >Понедельник</span> /
+                    <b  style="color:#a55;" >Сегодня</b><br></td>
+                <td><span class="hidden-xs">Осадки</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Ветер</span></td>
+                <td><span class="hidden-xs">Давление</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Влажность</span></td>
+            </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Вечер<br>
+                        <small>21:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+6 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn2'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>2 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        743 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 83%</td>
+                </tr>
+                                <tr class="hr">
+                <td colspan="3" class="day">
+                    20 Сентябрь /
+                    <span >Вторник</span> /
+                    <b  style="color:#a55;" >Завтра</b><br></td>
+                <td><span class="hidden-xs">Осадки</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Ветер</span></td>
+                <td><span class="hidden-xs">Давление</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Влажность</span></td>
+            </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Ночь<br>
+                        <small>03:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+6 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С-З<br>2 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        742 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 89%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Утро<br>
+                        <small>09:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+8 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>2 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        741 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 88%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> День<br>
+                        <small>15:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+12 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n1'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>3 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        741 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 57%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Вечер<br>
+                        <small>21:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+6 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n1'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>3 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        742 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 97%</td>
+                </tr>
+                                <tr class="hr">
+                <td colspan="3" class="day">
+                    21 Сентябрь /
+                    <span >Среда</span> /
+                    <b  style="color:#a55;" >Послезавтра</b><br></td>
+                <td><span class="hidden-xs">Осадки</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Ветер</span></td>
+                <td><span class="hidden-xs">Давление</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Влажность</span></td>
+            </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Ночь<br>
+                        <small>03:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+5 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>4 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        743 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 98%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Утро<br>
+                        <small>09:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+7 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>4 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        743 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 89%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> День<br>
+                        <small>15:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+11 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd3'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n1'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>5 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        743 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 69%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Вечер<br>
+                        <small>21:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+7 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n1'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>3 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        744 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 96%</td>
+                </tr>
+                                <tr class="hr">
+                <td colspan="3" class="day">
+                    22 Сентябрь /
+                    <span >Четверг</span> /
+                    <b  style="color:#a55;" ></b><br></td>
+                <td><span class="hidden-xs">Осадки</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Ветер</span></td>
+                <td><span class="hidden-xs">Давление</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Влажность</span></td>
+            </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Ночь<br>
+                        <small>03:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+8 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>3 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        743 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 93%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Утро<br>
+                        <small>09:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+8 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd5'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n1'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>5 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        743 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 91%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> День<br>
+                        <small>15:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+10 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n2'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>5 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        743 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 81%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Вечер<br>
+                        <small>21:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+6 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n1'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>3 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        743 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 96%</td>
+                </tr>
+                                <tr class="hr">
+                <td colspan="3" class="day">
+                    23 Сентябрь /
+                    <span >Пятница</span> /
+                    <b  style="color:#a55;" ></b><br></td>
+                <td><span class="hidden-xs">Осадки</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Ветер</span></td>
+                <td><span class="hidden-xs">Давление</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Влажность</span></td>
+            </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Ночь<br>
+                        <small>03:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+5 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С-З<br>4 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        743 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 98%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Утро<br>
+                        <small>09:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+7 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n1'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С-З<br>5 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        742 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 91%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> День<br>
+                        <small>15:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+10 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd5'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n1'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С-З<br>5 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        742 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 75%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Вечер<br>
+                        <small>21:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+6 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn3'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n1'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">З<br>3 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        742 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 92%</td>
+                </tr>
+                                <tr class="hr">
+                <td colspan="3" class="day">
+                    24 Сентябрь /
+                    <span  style="color:#EE9900;" >Суббота</span> /
+                    <b  style="color:#5a5;" ></b><br></td>
+                <td><span class="hidden-xs">Осадки</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Ветер</span></td>
+                <td><span class="hidden-xs">Давление</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Влажность</span></td>
+            </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Ночь<br>
+                        <small>03:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+4 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">З<br>3 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        742 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 98%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Утро<br>
+                        <small>09:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+7 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd3'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">З<br>3 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        743 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 87%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> День<br>
+                        <small>15:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+12 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd2'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n2'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">З<br>3 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        743 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 67%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Вечер<br>
+                        <small>21:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+6 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn3'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n2'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">З<br>2 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        744 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 94%</td>
+                </tr>
+                                <tr class="hr">
+                <td colspan="3" class="day">
+                    25 Сентябрь /
+                    <span  style="color:#EE9900;" >Воскресенье</span> /
+                    <b  style="color:#5a5;" ></b><br></td>
+                <td><span class="hidden-xs">Осадки</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Ветер</span></td>
+                <td><span class="hidden-xs">Давление</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Влажность</span></td>
+            </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Ночь<br>
+                        <small>03:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+7 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">З<br>2 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        744 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 95%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Утро<br>
+                        <small>09:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+7 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">З<br>3 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        745 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 92%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> День<br>
+                        <small>15:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+11 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n2'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С-З<br>4 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        745 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 80%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Вечер<br>
+                        <small>21:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+8 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n1'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>2 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        745 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 91%</td>
+                </tr>
+                                            <tr class="hr">
+                <td colspan="3" class="day">
+                    26 Сентябрь /
+                    <span >Понедельник</span> /
+                    <b  style="color:#a55;" ></b><br></td>
+                <td><span class="hidden-xs">Осадки</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Ветер</span></td>
+                <td><span class="hidden-xs">Давление</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Влажность</span></td>
+            </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Ночь<br>
+                        <small>03:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+4 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>2 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        747 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 98%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Утро<br>
+                        <small>09:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+7 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>3 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        748 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 91%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> День<br>
+                        <small>15:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+11 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n1'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>2 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        748 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 62%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Вечер<br>
+                        <small>21:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+7 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>1 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        749 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 81%</td>
+                </tr>
+                                <tr class="hr">
+                <td colspan="3" class="day">
+                    27 Сентябрь /
+                    <span >Вторник</span> /
+                    <b  style="color:#a55;" ></b><br></td>
+                <td><span class="hidden-xs">Осадки</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Ветер</span></td>
+                <td><span class="hidden-xs">Давление</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Влажность</span></td>
+            </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Ночь<br>
+                        <small>03:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+4 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn2'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С-З<br>1 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        748 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 93%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Утро<br>
+                        <small>09:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+7 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd3'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">З<br>1 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        748 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 81%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> День<br>
+                        <small>15:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+14 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd1'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">Ю-З<br>2 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        746 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 54%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Вечер<br>
+                        <small>21:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+8 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn2'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">Ю<br>3 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        745 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 86%</td>
+                </tr>
+                                <tr class="hr">
+                <td colspan="3" class="day">
+                    28 Сентябрь /
+                    <span >Среда</span> /
+                    <b  style="color:#a55;" ></b><br></td>
+                <td><span class="hidden-xs">Осадки</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Ветер</span></td>
+                <td><span class="hidden-xs">Давление</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Влажность</span></td>
+            </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Ночь<br>
+                        <small>03:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+9 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn3'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 b'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">Ю<br>4 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        742 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 88%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Утро<br>
+                        <small>09:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+8 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n2'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">Ю<br>4 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        737 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 95%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> День<br>
+                        <small>15:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+10 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcd5'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n3'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">Ю<br>5 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        731 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 94%</td>
+                </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Вечер<br>
+                        <small>21:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+9 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn5'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n3'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">Ю-В<br>3 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        730 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 98%</td>
+                </tr>
+                                <tr class="hr">
+                <td colspan="3" class="day">
+                    29 Сентябрь /
+                    <span >Четверг</span> /
+                    <b  style="color:#a55;" ></b><br></td>
+                <td><span class="hidden-xs">Осадки</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Ветер</span></td>
+                <td><span class="hidden-xs">Давление</span></td>
+                <td class="hidden-xs"><span class="hidden-xs">Влажность</span></td>
+            </tr>
+                            <tr class="line">
+                    <td align="right" class="daytime"> Ночь<br>
+                        <small>03:00</small>
+                        :
+                    </td>
+                    <td>
+                        <div class="t"><b>+7 °C</b></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bcn4'></div>
+                    </td>
+                    <td>
+                        <div class='box40px pic40 bo1n2'></div>
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px">С<br>3 м/с</td>
+                    <td style="font-size:11px">
+                        <div class="visible-xs">З<br/>2 м/с</div>
+                        732 мм рт.ст.
+                    </td>
+                    <td class="hidden-xs" style="font-size:11px"> 99%</td>
+                </tr>
+                            </tbody>
+</table>
+<div style="padding:10px 0px;background:#eee;"><b>Погода в городах Беларуси:</b> <a href="http://minsk.the.by"
+                                                                                    title="погода Минск">Минск</a> |<a
+        href="http://gomel.the.by" title="погода Гомель">Гомель</a> |<a href="http://pogodabrest.by/" title="погода Брест">Брест</a>
+    |<a href="http://pogodagrodno.by/" title="погода Гродно">Гродно</a> |<a href="http://pogodavitebsk.by/"
+                                                                         title="погода Витебск">Витебск</a> |<a
+        href="http://pogodapolotsk.by/" title="погода Полоцк">Полоцк</a> |<a href="http://pogodamogilev.by/"
+                                                                          title="погода Могилев">Могилев</a></div><a
+    class="nolink" href="/">Погода в Минске </a>
+<noindex> <b>19.09.2016</b> <br>Прогноз предоставлен сайтом <a title="Погода" target="_blank" class="nolink"
+                                                                href="http://nepogoda.ru">nepogoda.ru</a>
+</noindex>
+                    </td>
+                    <td valign="top" class="visible-lg visible-md visible-sm">
+                        <div id="ads">
+                                <!-- minsk -->
+    <div>
+        <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-2323968417522117";
+        /* minsk.the.by */
+        google_ad_slot = "7478197862";
+        google_ad_width = 160;
+        google_ad_height = 600;
+        //-->
+        </script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+    </div>
+    <div>
+        <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-2323968417522117";
+        /* minsk.the.by */
+        google_ad_slot = "9277135451";
+        google_ad_width = 160;
+        google_ad_height = 600;
+        //-->
+        </script>
+        <script type="text/javascript"
+        src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
+    </div>
+                            <div style='content: ".";visibility: hidden;display: block;height: 0; float: none; clear: both;'></div>
+                        </div>
+
+                        <div class="block">
+                            <span style="color:#aaa;">
+                                За последнее десятилетии произошло значительное изменение климата. Старые модели расчета прогноза погоды не точно отражают текущую ситуацию в атмосфере. Погода в Минске - это конкретный пример происходящих изменений. С учетом всех данных был создан новый подход расчета прогноз погоды Минск. Результат вы можете видеть на сайте прогноз погоды: погода в Минске на 10 дней. Все замечания и предложения высылайте на e-mail <script type="text/javascript" language="javascript">eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%70%6f%67%6f%64%61%40%74%68%65%2e%62%79%22%20%3e%70%6f%67%6f%64%61%40%74%68%65%2e%62%79%3c%2f%61%3e%27%29%3b'))</script>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <hr/>
+        <div class="container">
+        <div style="margin: 0 auto;" align="center">
+            <!-- Minsk -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-1524947-34', 'auto');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-1524947-10', 'auto', {'name':'theby'});
+    ga('theby.send', 'pageview');
+
+    ga('create', 'UA-1524947-35', 'auto', {'name':'all'});
+    ga('all.send', 'pageview');
+
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter29677180 = new Ya.Metrika({id:29677180,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+
+<noscript><div><img src="//mc.yandex.ru/watch/29677180" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter26958813 = new Ya.Metrika({id:26958813, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/26958813" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+
+<!-- BEGIN Rating All.BY CODE - ALTERNATING THIS CODE WILL CAUSE TERMINATION ACCOUNT-->
+<A href="re.php/www.all.by/">
+<IMG SRC="http://www.all.by/cgi-bin/rating.cgi?id=10053949&ni=1" BORDER="0" WIDTH="88" HEIGHT="31" ALT="Rating All.BY"></A>
+<!-- END Rating All.BY CODE-->
+<!-- Akavita counter code --><a target=_top
+href="re.php/www.akavita.by/">
+<script language=javascript><!--
+d=document;w=window;n=navigator;d.cookie="cc=1";
+r=''+escape(d.referrer);js=10;c=(d.cookie)?1:0;j=0;
+x=Math.random();u=''+escape(w.location.href);lt=0;
+h=history.length;t=new Date;f=(self!=top)?1:0;cd=0;
+tz=t.getTimezoneOffset();cpu=n.cpuClass;ww=wh=ss=0;
+//--></script><script language="javascript1.1"><!--
+js=11;j=(n.javaEnabled()?1:0);
+//--></script><script language="javascript1.2"><!--
+js=12;lt=1;s=screen;ss=s.width;
+cd=(s.colorDepth?s.colorDepth:s.pixelDepth);
+//--></script><script language="javascript1.3"><!--
+js=13;wh=w.innerHeight;ww=w.innerWidth;
+wh=(wh?wh:d.documentElement.offsetHeight);
+ww=(ww?ww:d.documentElement.offsetWidth);
+//--></script><script language=javascript><!--
+q='lik?id=24675&d='+u+'&r='+r+'&h='+h+'&f='+f;
+q+='&c='+c+'&tz='+tz+'&cpu='+cpu+'&js='+js+'&wh='+wh;
+q+='&ww='+ww+'&ss='+ss+'&cd='+cd+'&j='+j+'&x='+x;
+d.write('<img src="http://adlik.akavita.com/bin/'+
+q+'" alt="Akavita: каталог, рейтинг, счетчик для сайтов Беларуси" '+
+'border=0 width=88 height=31>');
+if(lt){d.write('<'+'!-- ');}//--></script><noscript>
+<img src="http://adlik.akavita.com/bin/lik?id=24675"
+border=0 height=31 width=88 alt="Akavita: каталог, рейтинг, счетчик для сайтов Беларуси">
+</noscript><script language="JavaScript"><!--
+if(lt){d.write('--'+'>');}//--></script></a>
+
+<!-- Akavita counter code -->
+<!-- SpyLOG -->
+<script src="http://tools.spylog.ru/counter2.2.js" type="text/javascript" id="spylog_code" counter="965345" ></script>
+<noscript>
+<a href="re.php/u9653.45.spylog.com/cnt?cid=965345&f=3&p=0" target="_blank">
+<img src="http://u9653.45.spylog.com/cnt?cid=965345&p=0" alt='SpyLOG' border='0' width=88 height=31 ></a>
+</noscript>
+<!--/ SpyLOG -->
+
+<!--Rating@Mail.ru COUNTEr--><a target=_top
+href="re.php/top.mail.ru/jump?from=1295077"><img
+src="http://d2.cc.b3.a1.top.list.ru/counter?id=1295077;t=99"
+border=0 height=18 width=88
+alt="Рейтинг@Mail.ru"/></a><!--/COUNTER-->
+<!-- catalog.tut.by code begin -->
+<a href="re.php/catalog.tut.by/">
+<img src="http://catalog.tut.by/images/catalog-tut.gif" border=0 width=88 height=31 alt="Каталог TUT.BY"></a>
+<!-- catalog.tut.by code end -->
+
+;
+            <!-- {$iTimeCahe|date_format:$sFormatDateTime} -->
+            <!-- <form name='button' ><input type='hidden' name = '{$vk_app_id}' id='VK_ID'></form> -->
+            <!--[if !IE]><!-->
+            <!--<script type='text/javascript' src = '{$buttons_src}'></script>-->
+            <!--<![endif]-->
+
+            <!-- Custom styles for this template -->
+            <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+            <!--[if lt IE 9]>
+            <script src="/assets/js/html5shiv.js"></script>
+            <script src="/assets/js/respond.min.js"></script>
+            <![endif]-->
+
+            <script src="/build/js/all-12c37f4f26.js"></script>
+
+            ;
+
+        </div>
+        <p class="text-center"> v0.1.6 </p>
+    </div>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"52038e12e9","applicationID":"7579868","transactionName":"NQBRYhFQWxZXWkJQVgxKZkQKHlwLUlxOF0kKFQ==","queueTime":0,"applicationTime":24,"atts":"GUdSFFlKSBg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
