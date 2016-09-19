@@ -456,7 +456,7 @@
         <div style=' padding: 10px;' class="visible-lg visible-md">
             <div id='buttons_panel' style='margin:0px;   float: left; '>
                 <div style="padding:10px; color:green;">
-                        <h4>85% посетителей постоянно возвращаются к нам.</h4>
+                        <h4>Спасибо Вам, что пользуетесь нашим веб сайтом.</h4>
                 </div>
                             </div>
 
@@ -1630,5 +1630,5 @@ alt="Рейтинг@Mail.ru"/></a><!--/COUNTER-->
         <p class="text-center"> v0.1.6 </p>
     </div>
 
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"52038e12e9","applicationID":"7579868","transactionName":"NQBRYhFQWxZXWkJQVgxKZkQKHlwLUlxOF0kKFQ==","queueTime":0,"applicationTime":24,"atts":"GUdSFFlKSBg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"52038e12e9","applicationID":"7579868","transactionName":"NQBRYhFQWxZXWkJQVgxKZkQKHlwLUlxOF0kKFQ==","queueTime":0,"applicationTime":26,"atts":"GUdSFFlKSBg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>
